@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins' ,sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+.common-button{
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600px;
+    background-color: #2563eb;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    border: none;
+}
+nav{
+    margin: 0 180px;
+}
+header{
+    gap: 35px;
+    margin: 0 180px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;  
+}
+nav a{
+    color: #565656;
+    margin-left: 22px;
+    text-decoration: none;
+    
+}
+/* First Section Start*/
+
+.first-section{
+
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 1)
+,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),url(./assets/banner.jpg);
+background-size: cover;
+margin: 20px auto;
+padding: 150px;
+background-position: center;
+background-repeat: no-repeat;
+width: 82%;
+}
+.font{
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center; 
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+    
+  
+
+
+
+
+}
+.font h1{
+    color: white;
+   
+}
+.font p{
+    color: rgb(185, 180, 180);
+}
