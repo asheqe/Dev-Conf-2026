@@ -17,11 +17,12 @@
     border: none;
 }
 nav{
-    margin: 0 180px;
+    margin: 0 120px;
+    display: flex;
 }
 header{
     gap: 35px;
-    margin: 0 180px;
+    margin: 0 150px;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -33,6 +34,7 @@ nav a{
     color: #565656;
     margin-left: 22px;
     text-decoration: none;
+    
     
 }
 /* First Section Start*/
@@ -58,14 +60,8 @@ width: 82%;
     gap: 20px;
     justify-content: center; 
     text-align: center;
-    padding: 100px;
+    padding: 80pxpx;
     margin: auto;
-    
-  
-
-
-
-
 }
 .font h1{
     color: white;
@@ -73,4 +69,48 @@ width: 82%;
 }
 .font p{
     color: rgb(185, 180, 180);
+}
+
+/* speaker section start */
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.section-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #111;
+}
+.speaker-class-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 35px;
+}
+.speaker-box {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;  
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.speaker-box img {
+    width: 100%;
+    height: 100%
+    object-fit: cover;
+}
+.speaker-information {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.speaker-information span{
+    color: #2a4cd4;
+    font-size: 12px;
+    font-weight: bold;
+}
 }
