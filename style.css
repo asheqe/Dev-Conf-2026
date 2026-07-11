@@ -45,7 +45,7 @@ nav a{
 ,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),url(./assets/banner.jpg);
 background-size: cover;
 margin: 20px auto;
-padding: 150px;
+padding: 200px;
 background-position: center;
 background-repeat: no-repeat;
 width: 82%;
@@ -113,6 +113,9 @@ width: 82%;
     font-size: 12px;
     font-weight: bold;
 }
+     /* speaker section End */
+
+
 
 /* Pricing Section start */
 
@@ -208,3 +211,109 @@ width: 82%;
     color: #2563eb;
     border: 1px solid #2563eb;
 }
+/* Pricing Section end */
+
+
+/* Venue Section start */
+.venue-section{
+    width: 85%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.venue-left{
+    width: 50%;
+}
+
+.venue-left h2{
+    font-size: 45px;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+
+.venue-left p{
+    color: gray;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.venue-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-box{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background: white;
+}
+
+.info-box h4{
+    margin-bottom: 10px;
+    color: #2563eb;
+}
+
+.info-box p{
+    margin: 0;
+    color: #555;
+}
+
+.venue-right{
+    width: 50%;
+}
+
+.venue-right img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* faq-section start */
+.faq-section{
+    padding:80px;
+    text-align:center;
+    background:#f8fafc;
+}
+
+.faq-section h2{
+    font-size:45px;
+    margin-bottom:10px;
+    color:#0f172a;
+}
+
+.faq-section p{
+    color:gray;
+    margin-bottom:40px;
+}
+
+.faq-box{
+    width:70%;
+    margin:auto;
+}
+
+.faq-box details{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:18px;
+    margin-bottom:15px;
+    text-align:left;
+}
+
+.faq-box summary{
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.faq-box details p{
+    margin-top:15px;
+    line-height:1.6;
+}
+/* Venue Section end */
