@@ -113,4 +113,33 @@ width: 82%;
     font-size: 12px;
     font-weight: bold;
 }
-}
+
+.pricing-main{
+    text-align: center;
+    padding: 40px 0;
+ }
+ .pricing-column{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+     
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+ }
+ .pricing-box{
+     border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  margin-top: 40px;
+ }
+ .pricing-main h2{
+     font-size: 2.5rem;
+    margin: 35px 0;
+ }
+ .extra-box{
+    background-color: #1c2338;
+    border: none;
+ }
+ .extra-box h2{
+    color: white;
+ }
