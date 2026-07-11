@@ -114,32 +114,97 @@ width: 82%;
     font-weight: bold;
 }
 
-.pricing-main{
+/* Pricing Section start */
+
+.pricing-section{
+    padding: 80px;
+    background: white;
     text-align: center;
-    padding: 40px 0;
- }
- .pricing-column{
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
-     
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
- }
- .pricing-box{
-     border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  margin-top: 40px;
- }
- .pricing-main h2{
-     font-size: 2.5rem;
-    margin: 35px 0;
- }
- .extra-box{
-    background-color: #1c2338;
-    border: none;
- }
- .extra-box h2{
+}
+
+.pricing-section h2{
+    font-size: 50px;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.pricing-section p{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.pricing-column-1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.standard-pricing-box{
+    width: 320px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.extra-box{
+    background: #0f172a;
     color: white;
- }
+}
+
+.extra-box h4{
+    color: #60a5fa;
+}
+.extra-box h2{
+    color: white;
+}
+.extra-box p,
+.extra-box li{
+    color: #d1d5db;
+}
+
+.standard-pricing-box h4{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.standard-pricing-box h2{
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.standard-pricing-box p{
+    margin-bottom: 25px;
+}
+
+.standard-pricing-box ul{
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.extra-box ul{
+    border-top: 1px solid  #ddd;
+}
+
+.standard-pricing-box li{
+    margin-bottom: 15px;
+}
+
+.common-button-1{
+    width: 100%;
+    padding: 15px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.extra-btn{
+    background: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
